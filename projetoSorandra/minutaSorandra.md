@@ -11,7 +11,9 @@ debate sobre o mesmo para um melhor entendimento de ambas as partes.
 </p>
 
 ### Documentos associados à fase de Concepção do Projeto:
-<p><http://www2.ufpel.edu.br/cic/2011/anais/pdf/EN/EN_00456.pdf>
+<a href="https://blog.da2k.com.br" title="Clique e acesse agora!">Blog do Da2k</a>
+
+<http://www2.ufpel.edu.br/cic/2011/anais/pdf/EN/EN_00456.pdf>
 <http://www.conhecer.org.br/enciclop/2011b/engenharias/construcao.pdf>
 <http://tecnologiasocial.fbb.org.br/tecnologiasocial/banco-de-tecnologias-sociais/pesquisar-tecnologias/detalhar-tecnologia-92.htm>
-</p>
+
