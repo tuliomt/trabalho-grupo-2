@@ -6,4 +6,4 @@ o agricultor na irrigação da lavoura. <br> O objetivo é usar diferentes tipos
 a proposta foi criar um uma interface de pra um jogo de perguntas e respostas onde atravez de um determido problema os 
 alunos escolher a melhor alternativa e quais produtos reclivaveis os alunos ultilizariam para obter o melhor resultado 
 levando em conta a distacia os obejetivo e a preção da agua do rio/represa ate a finalidade de consumo
-pois dependo da carrafa pet e o tamanho obtemos preção diferentes <\p>
+pois dependo da carrafa pet e o tamanho obtemos preção diferentes.
