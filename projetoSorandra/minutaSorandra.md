@@ -9,7 +9,9 @@
 Durante a reunião foi apresentado a proposta para o desenvolvimento de um software para auxilio ao ensino e um breve 
 debate sobre o mesmo para um melhor entendimento de ambas as partes.
 </p>
+
 ### Documentos associados à fase de Concepção do Projeto:
-<http://www2.ufpel.edu.br/cic/2011/anais/pdf/EN/EN_00456.pdf>
+<p><http://www2.ufpel.edu.br/cic/2011/anais/pdf/EN/EN_00456.pdf>
 <http://www.conhecer.org.br/enciclop/2011b/engenharias/construcao.pdf>
 <http://tecnologiasocial.fbb.org.br/tecnologiasocial/banco-de-tecnologias-sociais/pesquisar-tecnologias/detalhar-tecnologia-92.htm>
+</p>
