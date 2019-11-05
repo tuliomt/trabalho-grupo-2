@@ -1,1 +1,6 @@
-Ter: 08:00 - 10:10.
+Ter: 05/10 - 08:00 às 10:10.
+- Organização e planejamento para sprint 3.
+	Atualizações no zenhub
+	Organização das pastas do projeto
+	Todas as alterações foram commitadas
+#-------------------------------------------------------------#
