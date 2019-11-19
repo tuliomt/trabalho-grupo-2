@@ -10,7 +10,7 @@
     	animationEnabled: true,
     	exportEnabled: true,
     	title:{
-    		text: "Variação da DU ao longo dos 365 dias"
+    		text: "Variação da DN ao longo dos 365 dias"
     	},
 		axisX: {
 		title:"Dia do ano",
@@ -20,13 +20,13 @@
     		includeZero: false
     	},
     	data: [{
-    		type: "scatter",
+    		type: "spline",
     		toolTipContent: "variação: {y} / dia: {x}",
     		dataPoints: dataPoints
     	}]
     });
      
-    $.get("pifl3651_DU.CSV", getDataPointsFromCSV);
+    $.get("pifl3651_DN.CSV", getDataPointsFromCSV);
      
     //CSV Format
     //Year,Volume
