@@ -20,7 +20,7 @@
     		includeZero: false
     	},
     	data: [{
-    		type: "scatter",
+    		type: "spline",
     		toolTipContent: "variação: {y} / dia: {x}",
     		dataPoints: dataPoints
     	}]
