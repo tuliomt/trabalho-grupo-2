@@ -1,9 +1,18 @@
 Daily Scrum
+
 1) O que fiz desde o último encontro?
 tarefa #49 / 18/11
 tarefa #46 / 18/11
 Revisão sobre python 18/11
+
+19/11 revisão das tarefas e implementação da variavel PDOP
+
 2) O que farei até o próximo? 
 Trabalhar em conjunto para concluir as estórias 18/11
+
+19/11 Finalizar a Sprint 3.
+
 3) O que está me impedindo?
 tempo para conseguir fundamentar os conhecimentos em python. 18/11
+
+19/11 Por enquanto nada.
