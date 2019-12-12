@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estações</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
+
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="../index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><?php echo $_GET["user"]; ?> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Selecionar estação
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Incluir estação</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	   <div class="container mt-2">
+		  <div class="row">
+			<div class="col-12">
+			  <div class="jumbotron">
+				<h1 class="text-center">Central de estações</h1>
+				<div class="row justify-content-center">
+				  <div class="col-auto">
+					<p><a class="btn btn-success btn-lg" href="#" role="button">Buscar estações</a> </p>
+				  </div>
+				  <div class="col-auto">
+					<p><a class="btn btn-primary btn-lg" href="#" role="button">Cadastrar estação</a> </p>
+				  </div>
+				</div>
+				</div>
+			  </div>
+		   </div>
+	  </div>
+<!-- <form >
+  <p>
+    <label>
+      <input type="checkbox" onClick="2013.htlm" checked="on" name="CheckboxGroup1" value="caixa de seleção.html" id="CheckboxGroup1_0">
+      2013</label>
+    <br>
+	<label>
+      <input type="checkbox" name="CheckboxGroup1" value="caixa de seleção" id="CheckboxGroup1_2">
+      2014</label>
+    <br>	
+    <label>
+      <input type="checkbox" onclick="window.open('pifl1065.html','2013, 2014 e 2015','width=820,height=680');return false;" href="erro.html"  name="CheckboxGroup1" value="caixa de seleção" id="CheckboxGroup1_1">
+      2015</label>
+    <br>
+
+	  <input type="submit" formmethod="GET" title="enviar" value="enviar" >
+  </p>
+</form>
+          </div>
+        </div>
+      </div>
+    </div>
+	  
+	<section>
+		<iframe src="pifl3651/2013/variacao_DE_365_2013.php" width="100%" height="400" frameborder="0"></iframe>
+		<iframe src="pifl3651/2013/variacao_DN_365_2013.php" width="100%" height="400" frameborder="0"></iframe>
+		<iframe src="pifl3651/2013/variacao_DU_365_2013.php" width="100%" height="400" frameborder="0"></iframe>
+		<iframe src="pifl3651/2013/variacao_PDOP_365_2013.php" width="100%" height="400" frameborder="0"></iframe>
+		<iframe src="pifl3651/2013/media.php" width="100%" height="400" frameborder="0"></iframe>
+		<iframe src="pifl3651/2013/desvio_padrao.php" width="100%" height="400" frameborder="0"></iframe>
+	</section>
+   
+    <div class="container">
+	<h1 class="text-center">Informações detalhadas</h1>
+      <div class="row">
+        <div class="text-center col-md-6 col-12">
+          <h3>Planilha DE - DU - DN - PDOP</h3>
+          <p>Veja todos os dados da planilha anual, faça o download da planilha</p>
+          <a class="btn btn-danger btn-lg" href="pifl3651/2013/pifl3651.xlsx" role="button">Baixar Planilha do ano</a>
+        </div>
+        <div class="text-center col-md-6 col-12">
+          <h3>Manuais e Ajuda</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, magnam?</p>
+          <a class="btn btn-info btn-lg" href="#" role="button">Documentos da estação</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusamus praesentium eveniet ad unde doloremque ex officia eius ab quibusdam.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia natus amet eligendi consequuntur. Veritatis ullam debitis voluptas repellat laboriosam.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h2> Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, error, itaque non vel architecto ratione obcaecati doloribus delectus illum harum?</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nam voluptate accusantium nulla distinctio odit aliquam voluptatem ab. Earum.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" src="../images/600X300.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Destaque</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, at.</p>
+              <a href="#" class="btn btn-primary">Botão</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" src="../images/600X300.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Destaque 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, at.</p>
+              <a href="#" class="btn btn-primary">Botão</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-md-0 mb-2">
+          <h2>Contato</h2>
+          <address>
+            <strong>Alunos:</strong><br>
+            Guilherme, Marcus e Tulio<br>
+            <strong>Universidade Federal de Uberllândia</strong><br>
+			Disciplina PDS - 2019/02
+          </address>
+          <h4>ícones</h4>
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" src="../images/32X32.gif" alt=""></div>
+            <div class="col-2"><img class="rounded-circle" src="../images/32X32.gif" alt=""></div>
+            <div class="col-2"><img class="rounded-circle" src="../images/32X32.gif" alt=""></div>
+            <div class="col-2"><img class="rounded-circle" src="../images/32X32.gif" alt=""></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <h2>Ultimas estações</h2>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="../images/35X35.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">pifl3651</h5>
+                <p class="mb-0">Data de cadastro: 31/10/2019<br>Anos enviados: 2013</p>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="../images/35X35.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Estação 2</h5>
+                <p class="mb-0">Data de cadastro: <br> Anos enviados: 0</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h2>Sobre o SisGPSGraph</h2>
+          <p>O software esta sendo desenvolvido como protótipo.</p>
+          <p>Versão beta0311/2019</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
