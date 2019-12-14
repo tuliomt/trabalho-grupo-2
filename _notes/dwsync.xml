@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="index.html" server="ftp.vidiweb.com.br" local="132205744097268942" remote="132205743600000000" Dst="1" />
-<file name="license.txt" server="ftp.vidiweb.com.br" local="132073086780000000" remote="132205606800000000" Dst="1" />
-<file name="README.md" server="ftp.vidiweb.com.br" local="132150291108855491" remote="132205606800000000" Dst="1" />
-<file name="upload.html" server="ftp.vidiweb.com.br" local="132172231448775552" remote="132205606800000000" Dst="1" />
-<file name="cadastro.html" server="ftp.vidiweb.com.br" local="132205733499689538" remote="132205733400000000" Dst="1" />
-<file name="acao.php" server="ftp.vidiweb.com.br" local="132205731656945429" remote="132205731600000000" Dst="1" />
+<file name=".ftpquota" server="ftp.vidiweb.com.br" local="132208386899490886" remote="132206022600000000" Dst="1" />
+<file name="cadastro.html" server="ftp.vidiweb.com.br" local="132208386904469472" remote="132208333200000000" Dst="1" />
+<file name="acao.php" server="ftp.vidiweb.com.br" local="132208386904893678" remote="132205731600000000" Dst="1" />
+<file name="error_log" server="ftp.vidiweb.com.br" local="132208386908145751" remote="132208381800000000" Dst="1" />
+<file name="index.php" server="ftp.vidiweb.com.br" local="132208386912240086" remote="132208166400000000" Dst="1" />
+<file name="license.txt" server="ftp.vidiweb.com.br" local="132208386913991224" remote="132073086600000000" Dst="1" />
+<file name="README.md" server="ftp.vidiweb.com.br" local="132208386916021285" remote="132150291000000000" Dst="1" />
 </dwsync>

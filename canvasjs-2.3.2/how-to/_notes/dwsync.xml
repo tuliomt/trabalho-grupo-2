@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="add-data-points.php" server="ftp.vidiweb.com.br" local="131564066444584137" remote="132205605600000000" Dst="1" />
-<file name="create-chart-from-csv.php" server="ftp.vidiweb.com.br" local="131564274738097750" remote="132205605600000000" Dst="1" />
-<file name="create-chart-from-json.php" server="ftp.vidiweb.com.br" local="131564274909645873" remote="132205605600000000" Dst="1" />
-<file name="create-chart-from-xml.php" server="ftp.vidiweb.com.br" local="131564274815394051" remote="132205605600000000" Dst="1" />
-<file name="enable-disable-ds.php" server="ftp.vidiweb.com.br" local="131172203927068544" remote="132205605600000000" Dst="1" />
-<file name="data-from-database.php" server="ftp.vidiweb.com.br" local="131564274984448426" remote="132205605600000000" Dst="1" />
-<file name="live-chart.php" server="ftp.vidiweb.com.br" local="131184246533864055" remote="132205605600000000" Dst="1" />
-<file name="play-stop-live-chart.php" server="ftp.vidiweb.com.br" local="131564073022509632" remote="132205605600000000" Dst="1" />
-<file name="multiple-charts-in-a-page.php" server="ftp.vidiweb.com.br" local="131564275324259762" remote="132205605600000000" Dst="1" />
-<file name="sync-multiple-charts.php" server="ftp.vidiweb.com.br" local="131564275994067111" remote="132205605600000000" Dst="1" />
+<file name="add-data-points.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="create-chart-from-csv.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="create-chart-from-json.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="create-chart-from-xml.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="data-from-database.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="enable-disable-ds.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="live-chart.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="multiple-charts-in-a-page.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="play-stop-live-chart.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
+<file name="sync-multiple-charts.php" server="ftp.vidiweb.com.br" local="132205605600000000" remote="132205605600000000" Dst="1" />
 </dwsync>

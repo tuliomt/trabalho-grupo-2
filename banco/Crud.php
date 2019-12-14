@@ -7,12 +7,15 @@ class Crud {
 		$this->tabela = $tabela;
 	}
 	
-	public function select($parametros) {
+	public function select($parametros, $all = false, $join = "") {
 		try {
 			$conn = new PDO("mysql:host=localhost;port=3306;dbname=cente376_sispsgraph", "cente376_sisgrap", "sis123");
-			$stmt = $conn->prepare("SELECT * FROM $this->tabela WHERE $parametros;");
+			$stmt = $conn->prepare("SELECT * FROM $this->tabela $join WHERE $parametros;");
 			$stmt->setFetchMode(PDO::FETCH_ASSOC);
 			$stmt->execute();
+
+			if($all)
+				return $stmt->fetchAll();
 			
 			return $stmt->fetch();
 		} catch(PDOException $e) {
