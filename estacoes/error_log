@@ -1,0 +1,6 @@
+[14-Dec-2019 22:06:07 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Dec-2019 22:07:44 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Dec-2019 22:55:59 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Dec-2019 23:03:39 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Dec-2019 23:05:24 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Dec-2019 23:05:38 UTC] PHP Warning:  mkdir(): No such file or directory in /home/cente376/public_html/vidiweb.com.br/sispsgraph/estacoes/uploadDadosCsv.php on line 11
