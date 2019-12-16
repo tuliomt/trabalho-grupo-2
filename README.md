@@ -3,5 +3,4 @@
 
 #### Membros:
 ##### Tulio Araujo 
-##### Marcus Antônio 
 ##### Guilherme Vidigal
