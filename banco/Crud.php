@@ -9,7 +9,7 @@ class Crud {
 	
 	public function select($parametros, $all = false, $join = "") {
 		try {
-			$conn = new PDO("mysql:host=localhost;port=3306;dbname=cente376_sispsgraph", "cente376_sisgrap", "sis123");
+			$conn = new PDO("mysql:host=localhost;port=3306;dbname=sispsgraph", "root", "");
 			$stmt = $conn->prepare("SELECT * FROM $this->tabela $join WHERE $parametros;");
 			$stmt->setFetchMode(PDO::FETCH_ASSOC);
 			$stmt->execute();
@@ -25,7 +25,7 @@ class Crud {
 	
 	public function insert($atributos, $parametros) {
 		try {
-			$conn = new PDO("mysql:host=localhost;port=3306;dbname=cente376_sispsgraph", "cente376_sisgrap", "sis123");
+			$conn = new PDO("mysql:host=localhost;port=3306;dbname=sispsgraph", "root", "");
 			$stmt = $conn->prepare("INSERT INTO $this->tabela($atributos) VALUES($parametros);");
 			$stmt->execute();
 			

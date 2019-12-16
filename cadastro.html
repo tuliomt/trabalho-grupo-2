@@ -1,154 +1,77 @@
 <!DOCTYPE html>
-
 <html style="width: 100%; height: 100%;" lang="en">
-
   <head>
-
     <meta charset="utf-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Bootstrap - Prebuilt Layout</title>
 
-
-
     <!-- Bootstrap -->
-
     <link href="css/bootstrap.css" rel="stylesheet">
-
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   </head>
-
   <body style="width: 100%; height: 100%;">
-
 	<div  class="d-flex justify-content-center align-items-center">
-
 		<aside class="col-sm-4">
-
 			<h2	align="center">SisPSGraph Beta</h2>
-
 			<div class="card">
-
 				<article class="card-body">
-
 					<h4 class="card-title mb-4 mt-1">Cadastrar</h4>
-
 					 <form>
-
 						<div class="form-group">
-
 							<label>Usuário</label>
-
 							<input name="usuario" class="form-control" placeholder="usuario" type="text">
-
 						</div> <!-- form-group// -->
-
 						<div class="form-group">
-
 							<label>Senha</label>
-
 							<input name="senha" class="form-control" placeholder="******" type="password">
-
 						</div> <!-- form-group// --> 
-
 					 	<div class="form-group">
-
 							<label>Confirme a Senha</label>
-
 							<input name="conf_senha" class="form-control" placeholder="******" type="password">
-
 						</div> <!-- form-group// --> 
-
 						<div class="form-group">
-
 							<button type="button" onclick="cadastrar()" class="btn btn-primary btn-block"> Cadastrar  </button>
-
 						</div> <!-- form-group// -->            
-
 					</form>
-
 				</article>
-
 			</div> <!-- card.// -->
-
 		</aside> <!-- col.// -->
-
 	</div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-
     <script src="js/jquery-3.2.1.min.js"></script>
 
-
-
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
-
     <script src="js/popper.min.js"></script>
-
     <script src="js/bootstrap.js"></script>
-
 	  
-
   	<script>
-
 		function cadastrar() {
-
 			$("input").each(function() {
-
 				if(!$(this).val()) {
-
 					$(this).focus();
-
 					alert("Há espaço(s) em branco!");
-
 					return;
-
 				}	
-
 			});
-
 			
-
 			if($("input[name='senha']").val() == $("input[name='conf_senha']").val()) {
-
 				$.post("acao.php?acao=inserirUsuario", {usuario: $("input[name='usuario']").val(), senha: $("input[name='senha']").val()}, function(data) {
-
 					if(data) {
-
 						alert("Cadastro realizado!");
-
 						window.location.href = "index.php";
-
 					}
-
 					else {
-
 						alert("Cadastro não realizado!");
-
 					}
-
 				});
-
 			}
-
 			else {
-
 				alert("Senhas não conferem");
-
 			}
-
 		}  
-
   	</script>
-
   </body>
-
 </html>
-
